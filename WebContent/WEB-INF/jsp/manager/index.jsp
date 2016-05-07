@@ -53,7 +53,7 @@ $(function(){
                     	<em class="base_sys"></em><span>信息管理</span></a>
                     </li>
                     <li url="toAddStudent.action"><a href="#">
-                    	<em class="base_userset"></em><span>添加学生</span></a>
+                    	<em class="base_basicset"></em><span>添加学生</span></a>
                     </li>
                 </ul>
             </div>

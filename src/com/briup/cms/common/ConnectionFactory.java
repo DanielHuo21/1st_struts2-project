@@ -14,9 +14,10 @@ public class ConnectionFactory {
 	
 	static{
 		driver = "com.mysql.jdbc.Driver";
-		url = "jdbc:mysql://127.0.0.1:3306/cms12?useUnicode=true&amp;characterEncoding=UTF-8";
-		user = "root";
-		password = "root";
+		//jdbc:mysql://ip:port/dbName
+		url="jdbc:mysql://127.0.0.1:3306/cms12?useUnicode=true&amp;characterEncoding=UTF-8";
+		user = "Daniel";
+		password = "1234";
 	}
 	public static Connection getConn () {
 		Connection conn = null;
